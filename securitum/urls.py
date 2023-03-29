@@ -20,4 +20,5 @@ import securitumApp.views as sa
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', sa.home),
+    path('login/', sa.administador),
 ]
